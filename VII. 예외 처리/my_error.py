@@ -9,9 +9,9 @@ class OddError(Exception):
 n=11
 try:
     if n % 2 != 0:
-        raise OddError
+        raise OddError                  #에러 발생
     else:
         print("짝수에요. 짝짝짝")
 
-except OddError as e :
+except OddError as e :                  #에러 처리
     print(e)
