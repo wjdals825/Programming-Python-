@@ -10,7 +10,7 @@ try:
     history = file_manager.load()
     sum = 0
     for h in history:
-        print(h)
+            print(h)
         sum += h.price
     print("여태껏 아마스빈에 퍼부은 내 돈: " + str(num) + "원")
 except FileNotFoundError:
